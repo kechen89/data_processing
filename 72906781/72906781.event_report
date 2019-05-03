@@ -1,0 +1,10 @@
+NCSS origin: 
+{'evid': '72906781', 'latitude': 37.3135, 'longitude': -121.672, 'depth': 9690.0, 'otime': '2017-10-10T00:53:18.270000Z'}
+DD origin: 
+{'evid': '72906781', 'latitude': 37.30879, 'longitude': -121.6809, 'depth': 7946.0, 'otime': '2017-10-10T00:53:18.230000Z'}
+preferred mag: 4.09
+Distance (meters) between NCSS final and DD epicenters: 946.42
+Double-couple focal mechanism: 
+{'strike': 140.0, 'dip': 85.0, 'rake': -180.0, 'mag': 4.09, 'm0': 1531087461682025.5}
+Moment tensor focal mechanism: 
+{'m_rr': 0.04943295924394566, 'm_tt': -0.8978145304193739, 'm_pp': 0.848198464264619, 'm_rt': -0.012982870643827525, 'm_rp': -0.03082693443591258, 'm_tp': 0.48670998227997636, 'scalar_moment': 1693000000000000.0, 'm0': 1693000000000000.0, 'mag': 4.08910463873929}
