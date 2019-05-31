@@ -30,11 +30,6 @@ max_lon = -121.20
 min_lat = 37.20
 max_lat = 38.60
 
-#min_lon = -122.60
-#max_lon = -121.80
-#min_lat = 37.60
-#max_lat = 38.00
-
 # Magnitude limits
 min_mag = 4.0
 max_mag = 5.0
@@ -55,9 +50,9 @@ seismogram_time = 60.
 
 ######################################
 
-client = Client(data_center)
+client = Client(data_center)                 # initialize a client object
 print ('... running query ...')
-cat_ncss = client.get_events(starttime=tstart, endtime=tend,
+cat_ncss = client.get_events(starttime=tstart, endtime=tend,             # retrieve event data from sever, return a Catlog object
                               minlatitude=min_lat, minlongitude=min_lon, 
                               maxlatitude=max_lat, maxlongitude=max_lon,
                               minmagnitude=min_mag, maxmagnitude=max_mag,
