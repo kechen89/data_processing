@@ -1,0 +1,10 @@
+rec sta=BK.BDM file=BK.BH.BDM lat=37.95397 lon=-121.86554 depth=34.7 nsew=1 variables=velocity
+rec sta=BK.BKS file=BK.BH.BKS lat=37.87622 lon=-122.23558 depth=25.6 nsew=1 variables=velocity
+rec sta=BK.BRIB file=BK.BH.BRIB lat=37.91881 lon=-122.15176 depth=3.3 nsew=1 variables=velocity
+rec sta=BK.BRK file=BK.BH.BRK lat=37.87352 lon=-122.26099 depth=2.7 nsew=1 variables=velocity
+rec sta=BK.CVS file=BK.BH.CVS lat=38.34526 lon=-122.4584 depth=23.2 nsew=1 variables=velocity
+rec sta=BK.FARB file=BK.BH.FARB lat=37.69782 lon=-123.0011 depth=0.0 nsew=1 variables=velocity
+rec sta=BK.JRSC file=BK.BH.JRSC lat=37.40373 lon=-122.23868 depth=0.0 nsew=1 variables=velocity
+rec sta=BK.MCCM file=BK.BH.MCCM lat=38.14478 lon=-122.88018 depth=4.0 nsew=1 variables=velocity
+rec sta=BK.MHC file=BK.BH.MHC lat=37.34164 lon=-121.64257 depth=0.0 nsew=1 variables=velocity
+rec sta=BK.WENL file=BK.BH.WENL lat=37.62211 lon=-121.75697 depth=30.3 nsew=1 variables=velocity

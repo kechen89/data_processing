@@ -1,0 +1,490 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns:ns0="http://anss.org/xmlns/catalog/0.1" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns="http://quakeml.org/xmlns/bed/1.2">
+  <eventParameters publicID="smi:local/07a673de-3e0e-4b81-af21-53401ff3a6d0">
+    <event publicID="quakeml:nc.anss.org/Event/NC/21123384" ns0:datasource="nc" ns0:dataid="nc21123384" ns0:eventsource="nc" ns0:eventid="21123384">
+      <preferredOriginID>quakeml:nc.anss.org/Origin/NC/4940374</preferredOriginID>
+      <preferredMagnitudeID>quakeml:nc.anss.org/Netmag/NC/3880889</preferredMagnitudeID>
+      <preferredFocalMechanismID>quakeml:nc.anss.org/Mec/NC/7419</preferredFocalMechanismID>
+      <type>earthquake</type>
+      <creationInfo>
+        <agencyID>NC</agencyID>
+        <creationTime>2008-06-03T10:58:51.000000Z</creationTime>
+        <version>0</version>
+      </creationInfo>
+      <origin publicID="quakeml:nc.anss.org/Origin/NC/4940374" ns0:datasource="nc" ns0:dataid="nc21123384" ns0:eventsource="nc" ns0:eventid="21123384">
+        <time>
+          <value>2000-09-03T08:36:30.110000Z</value>
+        </time>
+        <latitude>
+          <value>38.3788333</value>
+        </latitude>
+        <longitude>
+          <value>-122.4133333</value>
+        </longitude>
+        <depth>
+          <value>9367.0</value>
+          <uncertainty>400.0</uncertainty>
+        </depth>
+        <depthType>from location</depthType>
+        <timeFixed>false</timeFixed>
+        <epicenterFixed>false</epicenterFixed>
+        <methodID>smi:nc.anss.org/origin/HYPO_m2g</methodID>
+        <type>hypocenter</type>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>final</evaluationStatus>
+        <creationInfo>
+          <agencyID>NC</agencyID>
+          <creationTime>2007-09-23T18:03:32.000000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>confidence ellipsoid</preferredDescription>
+          <horizontalUncertainty>190.0</horizontalUncertainty>
+          <confidenceLevel>95.0</confidenceLevel>
+          <confidenceEllipsoid>
+            <semiMajorAxisLength>960.0</semiMajorAxisLength>
+            <semiMinorAxisLength>312.0</semiMinorAxisLength>
+            <semiIntermediateAxisLength>456.0</semiIntermediateAxisLength>
+            <majorAxisPlunge>88.0</majorAxisPlunge>
+            <majorAxisAzimuth>26.0</majorAxisAzimuth>
+            <majorAxisRotation>41.0</majorAxisRotation>
+          </confidenceEllipsoid>
+        </originUncertainty>
+      </origin>
+      <origin publicID="quakeml:nc.anss.org/Origin/NC/6588329" ns0:datasource="nc" ns0:dataid="nc21123384" ns0:eventsource="nc" ns0:eventid="21123384">
+        <time>
+          <value>2000-09-03T08:36:30.110000Z</value>
+        </time>
+        <latitude>
+          <value>38.3787994</value>
+        </latitude>
+        <longitude>
+          <value>-122.4132996</value>
+        </longitude>
+        <depth>
+          <value>5000.0</value>
+          <uncertainty>1500.0</uncertainty>
+        </depth>
+        <depthType>from moment tensor inversion</depthType>
+        <timeFixed>false</timeFixed>
+        <epicenterFixed>false</epicenterFixed>
+        <methodID>smi:nc.anss.org/origin/TMTS</methodID>
+        <type>hypocenter</type>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NC</agencyID>
+          <creationTime>2008-06-03T10:58:51.000000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>190.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:nc.anss.org/Netmag/NC/2968989">
+        <mag>
+          <value>5.12</value>
+          <uncertainty>0.16</uncertainty>
+        </mag>
+        <type>Ma</type>
+        <originID>quakeml:nc.anss.org/Origin/NC/4940374</originID>
+        <stationCount>22</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>final</evaluationStatus>
+        <creationInfo>
+          <agencyID>NC</agencyID>
+          <creationTime>2007-09-23T18:03:31.000000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+      <magnitude publicID="quakeml:nc.anss.org/Netmag/NC/2968994">
+        <mag>
+          <value>4.66</value>
+          <uncertainty>0.22</uncertainty>
+        </mag>
+        <type>Md</type>
+        <originID>quakeml:nc.anss.org/Origin/NC/4940374</originID>
+        <methodID>smi:nc.anss.org/magnitude/Eworm_Md</methodID>
+        <stationCount>263</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>final</evaluationStatus>
+        <creationInfo>
+          <agencyID>NC</agencyID>
+          <creationTime>2007-09-23T18:03:31.000000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+      <magnitude publicID="quakeml:nc.anss.org/Netmag/NC/2968999">
+        <mag>
+          <value>5.17</value>
+        </mag>
+        <type>Ml</type>
+        <originID>quakeml:nc.anss.org/Origin/NC/4940374</originID>
+        <methodID>smi:nc.anss.org/magnitude/Redi_Ml</methodID>
+        <stationCount>15</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>final</evaluationStatus>
+        <creationInfo>
+          <agencyID>NC</agencyID>
+          <creationTime>2007-09-23T18:03:31.000000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+      <magnitude publicID="quakeml:nc.anss.org/Netmag/NC/3880889">
+        <mag>
+          <value>4.9</value>
+        </mag>
+        <type>Mw</type>
+        <originID>quakeml:nc.anss.org/Origin/NC/4940374</originID>
+        <methodID>smi:nc.anss.org/magnitude/TMTS</methodID>
+        <stationCount>7</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NC</agencyID>
+          <creationTime>2008-06-03T10:58:51.000000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+      <focalMechanism publicID="quakeml:nc.anss.org/Mec/NC/924314">
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="BRV"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="MOY"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="CAL"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="HJG"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="HOR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="GPM"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="HJS"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="KCP"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="HCA"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JEC"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="MST"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="AFD"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CMH"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CPI"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GAC"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="N1" networkCode="NN" stationCode="TNK"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="MCU"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CAI"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CSV"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="ARR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="N1" networkCode="NN" stationCode="GNO"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GBM"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GRT"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="MLR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GCK"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GTS"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JTG"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JSA"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="BPO"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="BVL"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GDX"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="LDB"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NDH"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NAD"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NC" stationCode="NSM"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JRG"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JBG"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NSH"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="N1" networkCode="WR" stationCode="PAM"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="OHC"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JCH"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="HSP"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="NC" stationCode="KCPB"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="BEH"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GAR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JSGB"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NRL"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="APR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="ABJ"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="BRM"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="HCO"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="BK" stationCode="HOPS"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="LRD"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NVA"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="LBP"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="HMOB"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="KIP"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="GCR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NAPB"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CYB"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="NCF"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CVL"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="MPR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="BLR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="ASM"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JHP"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NLN"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CSL"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CPM"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="03" networkCode="NC" stationCode="LCM"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NVE"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="ALN"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="LAC"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JSP"></waveformID>
+        <waveformID channelCode="HN1" locationCode="" networkCode="NC" stationCode="CCH1"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="JMG"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NIM"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="MYL"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="HBT"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GSS"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NTAB"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="AHR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="ORD"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GTC"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CBW"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="LTC"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JBZ"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="GSG"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JJR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="N1" networkCode="WR" stationCode="ORV"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CDU"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="OST"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NPR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="03" networkCode="NC" stationCode="CAD"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="BCW"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="GGP"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NTA"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="BSR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="HAZ"></waveformID>
+        <waveformID channelCode="HN1" locationCode="" networkCode="NC" stationCode="CGP1"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="AOH"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="AAR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="LSI"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="NHM"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NBO"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="01" networkCode="NC" stationCode="GNA"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GGU"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="JUC"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NMT"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JHL"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="N1" networkCode="WR" stationCode="GAS"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="BSL"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="HCB"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="JSM"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GWR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GAX"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CAO"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NMC"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GCW"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GRO"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NTYB"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NFI"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GHG"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JST"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="NGV"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CBR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="ALA"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="ORA"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="BPI"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="BSM"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="HFE"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NSP"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CRP"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="AOD"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="BHR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="GCV"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="HFP"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="BJO"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GHC"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="HLT"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="BPC"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="BPR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="LRR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JEG"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JLA"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="OGO"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GHV"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="COS"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="HLP"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CMJ"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="MRF"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="MBO"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NBP"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="BK" stationCode="SAO"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="BJC"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GBG"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GHO"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CBS"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="LPG"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="NFR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="AFH"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="HSF"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NMI"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="HER"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="AAS"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="BCG"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="KFP"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="HCR"></waveformID>
+        <waveformID channelCode="HN1" locationCode="" networkCode="NC" stationCode="CMW1"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="BK" stationCode="WDC"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CMM"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CSP"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="GWK"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="MNH"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JBN"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="BSG"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="BMS"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GSN"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CNI"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="BK" stationCode="CMB"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="LRB"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NBR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NMW"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GBD"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CCO"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NWR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JSB"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NLH"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JUM"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="OSU"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CVP"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="OBH"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GDC"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="JPR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="10" networkCode="NC" stationCode="NMH"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="ARJ"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="LVR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="03" networkCode="NC" stationCode="BBN"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="GHL"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NHF"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CML"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="NPV"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NOL"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CLC"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NTB"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="AVR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="OWY"></waveformID>
+        <triggeringOriginID>quakeml:nc.anss.org/Origin/NC/4940374</triggeringOriginID>
+        <stationPolarityCount>207</stationPolarityCount>
+        <misfit>0.07</misfit>
+        <nodalPlanes>
+          <nodalPlane1>
+            <strike>
+              <value>240.0</value>
+              <uncertainty>3.0</uncertainty>
+            </strike>
+            <dip>
+              <value>75.0</value>
+              <uncertainty>15.0</uncertainty>
+            </dip>
+            <rake>
+              <value>0.0</value>
+              <uncertainty>5.0</uncertainty>
+            </rake>
+          </nodalPlane1>
+          <nodalPlane2>
+            <strike>
+              <value>150.0</value>
+              <uncertainty>3.0</uncertainty>
+            </strike>
+            <dip>
+              <value>90.0</value>
+              <uncertainty>15.0</uncertainty>
+            </dip>
+            <rake>
+              <value>-165.0</value>
+              <uncertainty>5.0</uncertainty>
+            </rake>
+          </nodalPlane2>
+        </nodalPlanes>
+        <methodID>smi:nc.anss.org/focalMechanism/FPFIT</methodID>
+        <creationInfo>
+          <agencyID>NC</agencyID>
+          <creationTime>2011-12-01T02:29:28.000000Z</creationTime>
+        </creationInfo>
+      </focalMechanism>
+      <focalMechanism publicID="quakeml:nc.anss.org/Mec/NC/7419">
+        <waveformID channelCode="BHN" locationCode="" networkCode="BK" stationCode="SAO"></waveformID>
+        <waveformID channelCode="BHE" locationCode="" networkCode="BK" stationCode="SAO"></waveformID>
+        <waveformID channelCode="BHN" locationCode="" networkCode="BK" stationCode="MHC"></waveformID>
+        <waveformID channelCode="BHE" locationCode="" networkCode="BK" stationCode="ORV"></waveformID>
+        <waveformID channelCode="BHE" locationCode="" networkCode="BK" stationCode="CMB"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="BK" stationCode="HOPS"></waveformID>
+        <waveformID channelCode="BHE" locationCode="" networkCode="BK" stationCode="FARB"></waveformID>
+        <waveformID channelCode="BHE" locationCode="" networkCode="BK" stationCode="FARB"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="BK" stationCode="HOPS"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="BK" stationCode="CMB"></waveformID>
+        <waveformID channelCode="BHN" locationCode="" networkCode="BK" stationCode="HOPS"></waveformID>
+        <waveformID channelCode="BHN" locationCode="" networkCode="BK" stationCode="CMB"></waveformID>
+        <waveformID channelCode="BHE" locationCode="" networkCode="BK" stationCode="CMB"></waveformID>
+        <waveformID channelCode="BHN" locationCode="" networkCode="BK" stationCode="CMB"></waveformID>
+        <waveformID channelCode="BHN" locationCode="" networkCode="BK" stationCode="KCC"></waveformID>
+        <waveformID channelCode="BHE" locationCode="" networkCode="BK" stationCode="MHC"></waveformID>
+        <waveformID channelCode="BHE" locationCode="" networkCode="BK" stationCode="HOPS"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="BK" stationCode="MHC"></waveformID>
+        <waveformID channelCode="BHN" locationCode="" networkCode="BK" stationCode="ORV"></waveformID>
+        <waveformID channelCode="BHE" locationCode="" networkCode="BK" stationCode="SAO"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="BK" stationCode="SAO"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="BK" stationCode="ORV"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="BK" stationCode="KCC"></waveformID>
+        <waveformID channelCode="BHN" locationCode="" networkCode="BK" stationCode="MHC"></waveformID>
+        <waveformID channelCode="BHE" locationCode="" networkCode="BK" stationCode="HOPS"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="BK" stationCode="MHC"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="BK" stationCode="CMB"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="BK" stationCode="FARB"></waveformID>
+        <waveformID channelCode="BHN" locationCode="" networkCode="BK" stationCode="KCC"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="BK" stationCode="SAO"></waveformID>
+        <waveformID channelCode="BHN" locationCode="" networkCode="BK" stationCode="FARB"></waveformID>
+        <waveformID channelCode="BHN" locationCode="" networkCode="BK" stationCode="ORV"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="BK" stationCode="KCC"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="BK" stationCode="ORV"></waveformID>
+        <waveformID channelCode="BHN" locationCode="" networkCode="BK" stationCode="HOPS"></waveformID>
+        <waveformID channelCode="BHE" locationCode="" networkCode="BK" stationCode="KCC"></waveformID>
+        <waveformID channelCode="BHE" locationCode="" networkCode="BK" stationCode="ORV"></waveformID>
+        <waveformID channelCode="BHN" locationCode="" networkCode="BK" stationCode="FARB"></waveformID>
+        <waveformID channelCode="BHN" locationCode="" networkCode="BK" stationCode="SAO"></waveformID>
+        <waveformID channelCode="BHE" locationCode="" networkCode="BK" stationCode="KCC"></waveformID>
+        <waveformID channelCode="BHE" locationCode="" networkCode="BK" stationCode="MHC"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="" networkCode="BK" stationCode="FARB"></waveformID>
+        <triggeringOriginID>quakeml:nc.anss.org/Origin/NC/4940374</triggeringOriginID>
+        <momentTensor publicID="quakeml:nc.anss.org/Mec/NC/7419">
+          <derivedOriginID>quakeml:nc.anss.org/Origin/NC/6588329</derivedOriginID>
+          <dataUsed>
+            <waveType>combined</waveType>
+            <stationCount>7</stationCount>
+            <componentCount>21</componentCount>
+            <shortestPeriod>20.0</shortestPeriod>
+            <longestPeriod>100.0</longestPeriod>
+          </dataUsed>
+          <momentMagnitudeID>quakeml:nc.anss.org/Netmag/NC/3880889</momentMagnitudeID>
+          <scalarMoment>
+            <value>2.633e+16</value>
+          </scalarMoment>
+          <tensor>
+            <Mrr>
+              <value>1875000000000000.0</value>
+            </Mrr>
+            <Mtt>
+              <value>-2.385e+16</value>
+            </Mtt>
+            <Mpp>
+              <value>2.198e+16</value>
+            </Mpp>
+            <Mrt>
+              <value>3469000000000000.0</value>
+            </Mrt>
+            <Mrp>
+              <value>-596500000000000.0</value>
+            </Mrp>
+            <Mtp>
+              <value>1.254e+16</value>
+            </Mtp>
+          </tensor>
+          <varianceReduction>80.0</varianceReduction>
+          <doubleCouple>0.83</doubleCouple>
+          <clvd>0.17</clvd>
+          <iso>0.0</iso>
+          <greensFunctionID>quakeml:nc.anss.org/tdmt/NC/gil7_</greensFunctionID>
+          <methodID>smi:nc.anss.org/momentTensor/TDMT</methodID>
+          <category>regional</category>
+          <inversionType>zero trace</inversionType>
+          <creationInfo>
+            <agencyID>NC</agencyID>
+            <creationTime>2008-06-03T10:58:51.000000Z</creationTime>
+          </creationInfo>
+        </momentTensor>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NC</agencyID>
+          <creationTime>2008-06-03T10:58:51.000000Z</creationTime>
+        </creationInfo>
+      </focalMechanism>
+    </event>
+  </eventParameters>
+</q:quakeml>

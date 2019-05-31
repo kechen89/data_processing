@@ -1,0 +1,612 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns:ns0="http://anss.org/xmlns/catalog/0.1" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns="http://quakeml.org/xmlns/bed/1.2">
+  <eventParameters publicID="smi:local/bb1977c4-395f-4433-bce9-617d503bfa7e">
+    <event publicID="quakeml:nc.anss.org/Event/NC/72948801" ns0:datasource="nc" ns0:dataid="nc72948801" ns0:eventsource="nc" ns0:eventid="72948801">
+      <preferredOriginID>quakeml:nc.anss.org/Origin/NC/12219564</preferredOriginID>
+      <preferredMagnitudeID>quakeml:nc.anss.org/Netmag/NC/5270364</preferredMagnitudeID>
+      <preferredFocalMechanismID>quakeml:nc.anss.org/Mec/NC/1693314</preferredFocalMechanismID>
+      <type>earthquake</type>
+      <creationInfo>
+        <agencyID>NC</agencyID>
+        <creationTime>2018-01-04T20:03:42.000000Z</creationTime>
+        <version>15</version>
+      </creationInfo>
+      <origin publicID="quakeml:nc.anss.org/Origin/NC/12219124" ns0:datasource="nc" ns0:dataid="nc72948801" ns0:eventsource="nc" ns0:eventid="72948801">
+        <time>
+          <value>2018-01-04T10:39:37.640000Z</value>
+        </time>
+        <latitude>
+          <value>37.8608017</value>
+        </latitude>
+        <longitude>
+          <value>-122.2422028</value>
+        </longitude>
+        <depth>
+          <value>14000.0</value>
+        </depth>
+        <depthType>operator assigned</depthType>
+        <timeFixed>false</timeFixed>
+        <epicenterFixed>false</epicenterFixed>
+        <methodID>smi:nc.anss.org/origin/TMTS</methodID>
+        <type>hypocenter</type>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>NC</agencyID>
+          <creationTime>2018-01-04T10:58:19.000000Z</creationTime>
+        </creationInfo>
+      </origin>
+      <origin publicID="quakeml:nc.anss.org/Origin/NC/12219564" ns0:datasource="nc" ns0:dataid="nc72948801" ns0:eventsource="nc" ns0:eventid="72948801">
+        <time>
+          <value>2018-01-04T10:39:37.730000Z</value>
+        </time>
+        <latitude>
+          <value>37.8551667</value>
+        </latitude>
+        <longitude>
+          <value>-122.2568333</value>
+        </longitude>
+        <depth>
+          <value>12310.0</value>
+          <uncertainty>200.0</uncertainty>
+        </depth>
+        <depthType>from location</depthType>
+        <timeFixed>false</timeFixed>
+        <epicenterFixed>false</epicenterFixed>
+        <methodID>smi:nc.anss.org/origin/HYP2000_m2g</methodID>
+        <type>hypocenter</type>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>final</evaluationStatus>
+        <creationInfo>
+          <agencyID>NC</agencyID>
+          <creationTime>2018-01-04T20:03:40.000000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>confidence ellipsoid</preferredDescription>
+          <horizontalUncertainty>110.0</horizontalUncertainty>
+          <confidenceLevel>95.0</confidenceLevel>
+          <confidenceEllipsoid>
+            <semiMajorAxisLength>480.0</semiMajorAxisLength>
+            <semiMinorAxisLength>192.0</semiMinorAxisLength>
+            <semiIntermediateAxisLength>264.0</semiIntermediateAxisLength>
+            <majorAxisPlunge>80.0</majorAxisPlunge>
+            <majorAxisAzimuth>343.0</majorAxisAzimuth>
+            <majorAxisRotation>62.0</majorAxisRotation>
+          </confidenceEllipsoid>
+        </originUncertainty>
+      </origin>
+      <origin publicID="quakeml:nc.anss.org/Origin/NC/2487706" ns0:datasource="nc" ns0:dataid="nc72948801" ns0:eventsource="nc" ns0:eventid="72948801">
+        <time>
+          <value>2018-01-04T10:39:37.640000Z</value>
+        </time>
+        <latitude>
+          <value>37.8608322</value>
+        </latitude>
+        <longitude>
+          <value>-122.2421646</value>
+        </longitude>
+        <depth>
+          <value>12970.0</value>
+          <uncertainty>270.0</uncertainty>
+        </depth>
+        <depthType>from location</depthType>
+        <timeFixed>false</timeFixed>
+        <epicenterFixed>false</epicenterFixed>
+        <methodID>smi:nc.anss.org/origin/BINDER_m2g</methodID>
+        <type>hypocenter</type>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NC</agencyID>
+          <creationTime>2018-01-04T10:43:26.000000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>confidence ellipsoid</preferredDescription>
+          <horizontalUncertainty>150.0</horizontalUncertainty>
+          <confidenceLevel>95.0</confidenceLevel>
+          <confidenceEllipsoid>
+            <semiMajorAxisLength>672.0</semiMajorAxisLength>
+            <semiMinorAxisLength>264.0</semiMinorAxisLength>
+            <semiIntermediateAxisLength>360.0</semiIntermediateAxisLength>
+            <majorAxisPlunge>79.0</majorAxisPlunge>
+            <majorAxisAzimuth>10.0</majorAxisAzimuth>
+            <majorAxisRotation>29.0</majorAxisRotation>
+          </confidenceEllipsoid>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:nc.anss.org/Netmag/NC/5270364">
+        <mag>
+          <value>4.38</value>
+        </mag>
+        <type>Mw</type>
+        <originID>quakeml:nc.anss.org/Origin/NC/2487706</originID>
+        <methodID>smi:nc.anss.org/magnitude/TMTS</methodID>
+        <stationCount>7</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NC</agencyID>
+          <creationTime>2018-01-04T10:58:19.000000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+      <magnitude publicID="quakeml:nc.anss.org/Netmag/NC/5270584">
+        <mag>
+          <value>4.65</value>
+          <uncertainty>0.272</uncertainty>
+        </mag>
+        <type>Md</type>
+        <originID>quakeml:nc.anss.org/Origin/NC/12219564</originID>
+        <methodID>smi:nc.anss.org/magnitude/HypoinvMd</methodID>
+        <stationCount>164</stationCount>
+        <azimuthalGap>24.6</azimuthalGap>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NC</agencyID>
+          <creationTime>2018-01-04T20:03:42.000000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+      <magnitude publicID="quakeml:nc.anss.org/Netmag/NC/5270589">
+        <mag>
+          <value>4.64</value>
+          <uncertainty>0.228</uncertainty>
+        </mag>
+        <type>Ml</type>
+        <originID>quakeml:nc.anss.org/Origin/NC/12219564</originID>
+        <methodID>smi:nc.anss.org/magnitude/CISNml2</methodID>
+        <stationCount>83</stationCount>
+        <azimuthalGap>28.4</azimuthalGap>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NC</agencyID>
+          <creationTime>2018-01-04T20:03:42.000000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+      <focalMechanism publicID="quakeml:nc.anss.org/Mec/NC/1693339">
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CVL"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58442"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J045"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J031"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58209"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J040"></waveformID>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="BK" stationCode="JRSC"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1688"></waveformID>
+        <waveformID channelCode="EP1" locationCode="40" networkCode="BK" stationCode="MHDL"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NRL"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CCOB"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="57370"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1737"></waveformID>
+        <waveformID channelCode="HHZ" locationCode="01" networkCode="NP" stationCode="ELK"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="68310"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58579"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J046"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1691"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J042"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="57444"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C024"></waveformID>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="BK" stationCode="MTOS"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1853"></waveformID>
+        <waveformID channelCode="DP1" locationCode="40" networkCode="BK" stationCode="CMAB"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="GS" stationCode="SR1C"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J017"></waveformID>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="BK" stationCode="MCCM"></waveformID>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="BK" stationCode="WENL"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C033"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1861"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NBRB"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CPI"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1836"></waveformID>
+        <waveformID channelCode="DP1" locationCode="40" networkCode="BK" stationCode="RB2B"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58421"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="01" networkCode="NC" stationCode="CML"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58347"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58349"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58131"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58368"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1804"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1829"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="00" networkCode="BK" stationCode="RFSB"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="N017"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C039"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C050"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J008"></waveformID>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="BK" stationCode="MHC"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="10" networkCode="CE" stationCode="57534"></waveformID>
+        <waveformID channelCode="HHZ" locationCode="01" networkCode="NP" stationCode="KIR"></waveformID>
+        <waveformID channelCode="DP1" locationCode="40" networkCode="BK" stationCode="CMSB"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="00" networkCode="BK" stationCode="SCCB"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J018"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CRPB"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1799"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JSA"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JSJ"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C067"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C001"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CAO"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J055"></waveformID>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="BK" stationCode="BL67"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CBR"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C071"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NHS"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1844"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C008"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58127"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58487"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CLCB"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J061"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="10" networkCode="NP" stationCode="1756"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JTG"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1815"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="10" networkCode="NP" stationCode="1739"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J038"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1824"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="GS" stationCode="LV1C"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J043"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C070"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J001"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58133"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J016"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1863"></waveformID>
+        <waveformID channelCode="DP1" locationCode="40" networkCode="BK" stationCode="HERB"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CAG"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C054"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NFV"></waveformID>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="BK" stationCode="BRK"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58130"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NTYB"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="N002"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JAR"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C046"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58667"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J020"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C057"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C013"></waveformID>
+        <waveformID channelCode="EP1" locationCode="40" networkCode="BK" stationCode="SBRN"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="10" networkCode="CE" stationCode="69039"></waveformID>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="BK" stationCode="BKS"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58132"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1752"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1854"></waveformID>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="BK" stationCode="VAK"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="10" networkCode="CE" stationCode="57254"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="B0" networkCode="NP" stationCode="1877"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="03" networkCode="NC" stationCode="CPP"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J067"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="10" networkCode="NP" stationCode="1769"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C015"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1778"></waveformID>
+        <waveformID channelCode="EP1" locationCode="" networkCode="NC" stationCode="CGP1"></waveformID>
+        <waveformID channelCode="EP1" locationCode="40" networkCode="BK" stationCode="OXMT"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CVP"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1856"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="57431"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J006"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C016"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CYB"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C049"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1805"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NBO"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J027"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="10" networkCode="CE" stationCode="68034"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1835"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="03" networkCode="NC" stationCode="CMP"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J030"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NC" stationCode="NHM"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1826"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="WR" stationCode="CLFS"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="N018"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JBMB"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1838"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58393"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="10" networkCode="NP" stationCode="1689"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1755"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C029"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NTR"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="57307"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C059"></waveformID>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="BK" stationCode="CVS"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C047"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JBZ"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C044"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58346"></waveformID>
+        <waveformID channelCode="EP1" locationCode="" networkCode="NC" stationCode="CSU1"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CSTC"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J004"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J007"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C027"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J034"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C002"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="05" networkCode="NC" stationCode="CUSLD"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1796"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1843"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CSPB"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CHR"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NHC"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CADB"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58408"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J005"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1802"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1857"></waveformID>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="BK" stationCode="FARB"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1848"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1722"></waveformID>
+        <waveformID channelCode="EP1" locationCode="40" networkCode="BK" stationCode="VALB"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C058"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J044"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58505"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NOLB"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J011"></waveformID>
+        <waveformID channelCode="HHZ" locationCode="02" networkCode="NP" stationCode="SIA"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="GS" stationCode="DV01"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C021"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58619"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1859"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58497"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J062"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JMGB"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="01" networkCode="NC" stationCode="CBSB"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1817"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J056"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1803"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J022"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J063"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C064"></waveformID>
+        <waveformID channelCode="EP1" locationCode="" networkCode="NC" stationCode="CYD1"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J012"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NPRB"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J037"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NBP"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C045"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="WR" stationCode="CKR"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58340"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58086"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J026"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CMOB"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="N013"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58790"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J003"></waveformID>
+        <waveformID channelCode="DP1" locationCode="40" networkCode="BK" stationCode="SM2B"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JFP"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J039"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C041"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C055"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58446"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="N001"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="10" networkCode="CE" stationCode="67533"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1860"></waveformID>
+        <waveformID channelCode="HHZ" locationCode="01" networkCode="NP" stationCode="DIX"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="57311"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="10" networkCode="NP" stationCode="1753"></waveformID>
+        <waveformID channelCode="EP1" locationCode="40" networkCode="BK" stationCode="SVIN"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1768"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CMLP"></waveformID>
+        <waveformID channelCode="EP1" locationCode="40" networkCode="BK" stationCode="PETB"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="57213"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CTA"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="N015"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1788"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58306"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1675"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NCC"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58409"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JJO"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="02" networkCode="NC" stationCode="CMC"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CMM"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CPM"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J057"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J049"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J015"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CNI"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C005"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C056"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="10" networkCode="CE" stationCode="57201"></waveformID>
+        <waveformID channelCode="HHZ" locationCode="01" networkCode="NP" stationCode="PLA"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1801"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58135"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="03" networkCode="NC" stationCode="RWSVT"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JGR"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="57453"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J051"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58423"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J033"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1791"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CAL"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1849"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="N011"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1862"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="00" networkCode="BK" stationCode="BL88"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1770"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CDOB"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NSM"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C028"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JSFB"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NTAC"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JPSB"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JPR"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="N008"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J035"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J036"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C069"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NHV"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="N016"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1858"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="10" networkCode="CE" stationCode="57202"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J068"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="10" networkCode="NP" stationCode="1762"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58592"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="00" networkCode="NP" stationCode="1745"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J041"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J009"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C048"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="GS" stationCode="SR1B"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NEA"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C010"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J023"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1847"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J013"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="10" networkCode="CE" stationCode="57252"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="NMI"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J010"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C062"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CBZ"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JSP"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J002"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CSL"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="NP" stationCode="1814"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C011"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J025"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J064"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C017"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J060"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58211"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C018"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C026"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C072"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="PB" stationCode="B057"></waveformID>
+        <waveformID channelCode="HHZ" locationCode="" networkCode="NC" stationCode="CMW"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J032"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C012"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="C006"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="CBP"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="01" networkCode="NC" stationCode="J054"></waveformID>
+        <waveformID channelCode="EHZ" locationCode="" networkCode="NC" stationCode="JSB"></waveformID>
+        <waveformID channelCode="HNZ" locationCode="" networkCode="CE" stationCode="58526"></waveformID>
+        <triggeringOriginID>quakeml:nc.anss.org/Origin/NC/12219564</triggeringOriginID>
+        <stationPolarityCount>308</stationPolarityCount>
+        <misfit>0.18</misfit>
+        <nodalPlanes>
+          <nodalPlane1>
+            <strike>
+              <value>60.0</value>
+              <uncertainty>8.0</uncertainty>
+            </strike>
+            <dip>
+              <value>90.0</value>
+              <uncertainty>10.0</uncertainty>
+            </dip>
+            <rake>
+              <value>-40.0</value>
+              <uncertainty>25.0</uncertainty>
+            </rake>
+          </nodalPlane1>
+          <nodalPlane2>
+            <strike>
+              <value>150.0</value>
+              <uncertainty>8.0</uncertainty>
+            </strike>
+            <dip>
+              <value>50.0</value>
+              <uncertainty>10.0</uncertainty>
+            </dip>
+            <rake>
+              <value>-180.0</value>
+              <uncertainty>25.0</uncertainty>
+            </rake>
+          </nodalPlane2>
+        </nodalPlanes>
+        <methodID>smi:nc.anss.org/focalMechanism/FPFIT</methodID>
+        <creationInfo>
+          <agencyID>NC</agencyID>
+          <creationTime>2018-01-04T20:05:52.000000Z</creationTime>
+        </creationInfo>
+      </focalMechanism>
+      <focalMechanism publicID="quakeml:nc.anss.org/Mec/NC/1693314">
+        <waveformID channelCode="BHN" locationCode="00" networkCode="BK" stationCode="CVS"></waveformID>
+        <waveformID channelCode="BHE" locationCode="00" networkCode="BK" stationCode="CVS"></waveformID>
+        <waveformID channelCode="BHN" locationCode="00" networkCode="BK" stationCode="MNRC"></waveformID>
+        <waveformID channelCode="BHE" locationCode="00" networkCode="BK" stationCode="PACP"></waveformID>
+        <waveformID channelCode="BHE" locationCode="00" networkCode="BK" stationCode="FARB"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="BK" stationCode="SAO"></waveformID>
+        <waveformID channelCode="HHE" locationCode="" networkCode="NC" stationCode="AFD"></waveformID>
+        <waveformID channelCode="HHE" locationCode="" networkCode="NC" stationCode="AFD"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="BK" stationCode="SAO"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="BK" stationCode="FARB"></waveformID>
+        <waveformID channelCode="BHN" locationCode="00" networkCode="BK" stationCode="SAO"></waveformID>
+        <waveformID channelCode="BHN" locationCode="00" networkCode="BK" stationCode="FARB"></waveformID>
+        <waveformID channelCode="BHE" locationCode="00" networkCode="BK" stationCode="FARB"></waveformID>
+        <waveformID channelCode="BHN" locationCode="00" networkCode="BK" stationCode="FARB"></waveformID>
+        <waveformID channelCode="BHN" locationCode="00" networkCode="BK" stationCode="CMB"></waveformID>
+        <waveformID channelCode="BHE" locationCode="00" networkCode="BK" stationCode="MNRC"></waveformID>
+        <waveformID channelCode="BHE" locationCode="00" networkCode="BK" stationCode="SAO"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="BK" stationCode="MNRC"></waveformID>
+        <waveformID channelCode="BHN" locationCode="00" networkCode="BK" stationCode="PACP"></waveformID>
+        <waveformID channelCode="BHE" locationCode="00" networkCode="BK" stationCode="CVS"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="BK" stationCode="CVS"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="BK" stationCode="PACP"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="BK" stationCode="CMB"></waveformID>
+        <waveformID channelCode="BHN" locationCode="00" networkCode="BK" stationCode="MNRC"></waveformID>
+        <waveformID channelCode="BHE" locationCode="00" networkCode="BK" stationCode="SAO"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="BK" stationCode="MNRC"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="BK" stationCode="FARB"></waveformID>
+        <waveformID channelCode="HHZ" locationCode="" networkCode="NC" stationCode="AFD"></waveformID>
+        <waveformID channelCode="BHN" locationCode="00" networkCode="BK" stationCode="CMB"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="BK" stationCode="CVS"></waveformID>
+        <waveformID channelCode="HHN" locationCode="" networkCode="NC" stationCode="AFD"></waveformID>
+        <waveformID channelCode="BHN" locationCode="00" networkCode="BK" stationCode="PACP"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="BK" stationCode="CMB"></waveformID>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="BK" stationCode="PACP"></waveformID>
+        <waveformID channelCode="BHN" locationCode="00" networkCode="BK" stationCode="SAO"></waveformID>
+        <waveformID channelCode="BHE" locationCode="00" networkCode="BK" stationCode="CMB"></waveformID>
+        <waveformID channelCode="BHE" locationCode="00" networkCode="BK" stationCode="PACP"></waveformID>
+        <waveformID channelCode="HHN" locationCode="" networkCode="NC" stationCode="AFD"></waveformID>
+        <waveformID channelCode="BHN" locationCode="00" networkCode="BK" stationCode="CVS"></waveformID>
+        <waveformID channelCode="BHE" locationCode="00" networkCode="BK" stationCode="CMB"></waveformID>
+        <waveformID channelCode="BHE" locationCode="00" networkCode="BK" stationCode="MNRC"></waveformID>
+        <waveformID channelCode="HHZ" locationCode="" networkCode="NC" stationCode="AFD"></waveformID>
+        <triggeringOriginID>quakeml:nc.anss.org/Origin/NC/2487706</triggeringOriginID>
+        <momentTensor publicID="quakeml:nc.anss.org/Mec/NC/1693314">
+          <derivedOriginID>quakeml:nc.anss.org/Origin/NC/12219124</derivedOriginID>
+          <dataUsed>
+            <waveType>combined</waveType>
+            <stationCount>7</stationCount>
+            <componentCount>21</componentCount>
+            <shortestPeriod>20.0</shortestPeriod>
+            <longestPeriod>50.0</longestPeriod>
+          </dataUsed>
+          <momentMagnitudeID>quakeml:nc.anss.org/Netmag/NC/5270364</momentMagnitudeID>
+          <scalarMoment>
+            <value>4563000000000000.0</value>
+          </scalarMoment>
+          <tensor>
+            <Mrr>
+              <value>132000000000000.0</value>
+            </Mrr>
+            <Mtt>
+              <value>-3959000000000000.0</value>
+            </Mtt>
+            <Mpp>
+              <value>3827000000000000.0</value>
+            </Mpp>
+            <Mrt>
+              <value>-1053000000000000.0</value>
+            </Mrt>
+            <Mrp>
+              <value>-285900000000000.0</value>
+            </Mrp>
+            <Mtp>
+              <value>2124000000000000.0</value>
+            </Mtp>
+          </tensor>
+          <varianceReduction>82.0</varianceReduction>
+          <doubleCouple>0.89</doubleCouple>
+          <clvd>0.11</clvd>
+          <iso>0.0</iso>
+          <greensFunctionID>quakeml:nc.anss.org/tdmt/NC/gil7_</greensFunctionID>
+          <methodID>smi:nc.anss.org/momentTensor/TMTS</methodID>
+          <category>regional</category>
+          <inversionType>zero trace</inversionType>
+          <creationInfo>
+            <agencyID>NC</agencyID>
+            <creationTime>2018-01-04T10:58:19.000000Z</creationTime>
+          </creationInfo>
+        </momentTensor>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NC</agencyID>
+          <creationTime>2018-01-04T10:58:19.000000Z</creationTime>
+        </creationInfo>
+      </focalMechanism>
+    </event>
+  </eventParameters>
+</q:quakeml>
