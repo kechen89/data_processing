@@ -49,10 +49,12 @@ freq = 2*3.14159265359/duration
 seismogram_time = 60.
 
 ######################################
-
-client = Client(data_center)                 # initialize a client object
+# initialize a client object
+client = Client(data_center)
 print ('... running query ...')
-cat_ncss = client.get_events(starttime=tstart, endtime=tend,             # retrieve event data from sever, return a Catlog object
+
+# retrieve event data from sever, return a Catlog object
+cat_ncss = client.get_events(starttime=tstart, endtime=tend,
                               minlatitude=min_lat, minlongitude=min_lon, 
                               maxlatitude=max_lat, maxlongitude=max_lon,
                               minmagnitude=min_mag, maxmagnitude=max_mag,
@@ -68,9 +70,11 @@ cat_dd = client.get_events(starttime=tstart, endtime=tend,
 print ('cat_ncss found: '+str(cat_ncss.count())+' event(s)')   
 print ('cat_dd found:   '+str(cat_dd.count())+' event(s)')  
 
-# Plot NCSS events
+# Plot NCSS events and DD events
 fig = cat_ncss.plot(method="basemap", label='magnitude', projection='local', color='date', resolution='i', title='NCSS Event Catalog') 
 fig.savefig('catalog_ncss_map.png', figsize=(6,6), dpi=500)
+fig = cat_dd.plot(method="basemap", label='magnitude', projection='local', color='date', resolution='i', title='DD Event Catalog')
+fig.savefig('catalog_dd_map.png', figsize=(6,6), dpi=500)
 
 # Write out catalogs for all events
 filename = 'catalog_ncss.xml'
