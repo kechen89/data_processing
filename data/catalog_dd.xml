@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <q:quakeml xmlns:catalog="http://anss.org/xmlns/catalog/0.1" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns="http://quakeml.org/xmlns/bed/1.2">
-  <eventParameters publicID="quakeml:nc.anss.org/Event/NC/72948801#155933800532">
+  <eventParameters publicID="quakeml:nc.anss.org/Event/NC/72948801#156401384979">
     <creationInfo>
       <agencyID>NC</agencyID>
-      <creationTime>2019-05-31T21:26:45.320000Z</creationTime>
+      <creationTime>2019-07-25T00:17:29.790000Z</creationTime>
     </creationInfo>
     <event publicID="quakeml:nc.anss.org/Event/NC/72948801" catalog:datasource="nc" catalog:dataid="nc72948801" catalog:eventsource="nc" catalog:eventid="72948801">
       <preferredMagnitudeID>quakeml:nc.anss.org/Netmag/NC/5270364</preferredMagnitudeID>
